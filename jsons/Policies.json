@@ -18,7 +18,7 @@
                 "name": "Aristocracy",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                    "[+1 Happiness, +1 Gold] per [10] population [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -26,7 +26,7 @@
             {
                 "name": "Legalism",
                 "uniques": [
-                    "Provides the cheapest [Culture] building in your first [4] cities for free"
+                    "[+1 Gold, +1 Production] from all [Culture] buildings"
                 ],
                 "row": 1,
                 "column": 3
@@ -63,7 +63,7 @@
                 "name": "Tradition Complete",
                 "uniques": [
                     "[+15]% growth [in all cities]",
-                    "Provides a [Aqueduct] in your first [4] cities for free"
+                    "[+20]% Production towards any buildings that already exist in the Capital"
                 ]
             }
         ]
@@ -84,7 +84,7 @@
                 "name": "Republic",
                 "uniques": [
                     "[+1 Production] [in all cities]",
-                    "[+5]% Production when constructing [All] buildings [in all cities]"
+                    "[+5]% Production when constructing [Happiness] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -92,8 +92,9 @@
             {
                 "name": "Citizenship",
                 "uniques": [
-                    "[-25]% tile improvement construction time",
-                    "Free [Worker] appears"
+                    "[-15]% tile improvement construction time",
+                    "Free [Worker] appears",
+                    "[+1 Happiness] [in all non-occupied cities]"
                 ],
                 "row": 1,
                 "column": 4
@@ -101,7 +102,8 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[+50]% Production when constructing [Settler] units [in capital]",
+                    "[+25]% Production when constructing [Settler] units [in capital]",
+                    "[-15]% tile improvement construction time <when not at war>",
                     "Free [Settler] appears"
                 ],
                 "requires": ["Republic"],
@@ -111,8 +113,7 @@
             {
                 "name": "Representation",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [33]% less than normal",
-                    "Empire enters golden age"
+                    "Each city founded increases culture cost of policies [50]% less than normal",
                 ],
                 "requires": ["Citizenship"],
                 "row": 2,
@@ -121,7 +122,7 @@
             {
                 "name": "Meritocracy",
                 "uniques": [
-                    "[+1 Happiness] [in all cities connected to capital]",
+                    "[+1 Gold] [in all cities connected to capital]",
                     "[-5]% Unhappiness from [Population] [in all non-occupied cities]"
                 ],
                 "requires": ["Citizenship"],
@@ -130,7 +131,9 @@
             },
             {
                 "name": "Liberty Complete",
-                "uniques": ["Free Great Person"]
+                "uniques": [
+                    "Free Great Person", 
+                ]
             }
         ]
     },
@@ -145,7 +148,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+33]% Strength <vs [Barbarian] units>",
+            "[+33]% Strength <vs [Barbarian] units> <before adopting [Honor Complete]>",
             "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
             "Notified of new Barbarian encampments"
         ],
@@ -153,8 +156,7 @@
             {
                 "name": "Warrior Code",
                 "uniques": [
-                    "[+15]% Production when constructing [Melee] units [in all cities]",
-                    "Free [Great General] appears"
+                    "[+33]% Production when constructing [Melee] units [in all cities]",
                 ],
                 "row": 1,
                 "column": 2
@@ -162,7 +164,8 @@
             {
                 "name": "Discipline",
                 "uniques": [
-                    "[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
+                    "[+20]% Strength <for [Melee] units> <when adjacent to a [Melee] unit> <when defending>",
+                    "[+20]% Strength <for [Ranged] units> <when adjacent to a [Ranged] unit> <when attacking>"
                 ],
                 "row": 1,
                 "column": 4
@@ -189,10 +192,7 @@
                 "name": "Professional Army",
                 "uniques": [
                     "[-33]% Gold cost of upgrading <for [Military] units>",
-                    "[+1 Happiness] from every [Walls]",
-                    "[+1 Happiness] from every [Castle]",
-                    "[+1 Happiness] from every [Arsenal]",
-                    "[+1 Happiness] from every [Military Base]"
+                    "[Gold] cost of purchasing [Military] units [-33]%"
                 ],
                 "requires": ["Military Caste"],
                 "row": 3,
@@ -201,7 +201,10 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
+                    "Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
+                    "Earn [20]% of killed [Military] unit's [Strength] as [Culture]",
+                    "[+10]% [Culture] [in annexed cities]",
+                    "[-5]% [Gold] [in annexed cities]",
                 ]
             }
         ]
