@@ -593,7 +593,7 @@
                     "[-1 Happiness] [in all cities]",
                     "[+2 Production, -1 Happiness] [in all cities] <when at war>"
                 ],
-                "requires": ["Populism", "Militarism"],
+                "requires": ["Nationalism", "Militarism"],
                 "row": 2,
                 "column": 2
             },
@@ -673,7 +673,7 @@
             },
             {
                 "name": "Socialism",
-                "requires": ["Planned Economy"],
+                "requires": ["Planned Economy", "Populism", "United Front"],
                 "uniques": [
                     "[-15]% maintenance cost for buildings [in all cities]",
                 ],
