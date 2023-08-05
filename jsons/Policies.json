@@ -44,7 +44,8 @@
                 "name": "Landed Elite",
                 "uniques": [
                     "[+10]% growth [in capital]",
-                    "[+2 Food] [in capital]"
+                    "[+2 Food] [in capital]",
+                    "May buy [Settler] units for [200] [Culture] [in capital] at an increasing price ([100])"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -103,7 +104,8 @@
                 "name": "Collective Rule",
                 "uniques": [
                     "[-15]% tile improvement construction time <when not at war>",
-                    "Free [Settler] appears"
+                    "Free [Settler] appears",
+                    "May buy [Settler] units for [200] [Happiness] [in all cities connected to capital] at an increasing price ([100])"
                 ],
                 "requires": ["Republic"],
                 "row": 2,
@@ -241,7 +243,10 @@
             },
             {
                 "name": "Theocracy",
-                "uniques": ["[+10]% [Gold] from every [Temple]"],
+                "uniques": [
+                    "[+10]% [Gold] from every [Temple]",
+                    "May buy [Settler] units for [200] [Faith] [in holy cities] at an increasing price ([100])"
+                ],
                 "requires": ["Organized Religion"],
                 "row": 2,
                 "column": 1
