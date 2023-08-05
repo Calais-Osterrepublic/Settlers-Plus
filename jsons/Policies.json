@@ -10,7 +10,7 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+3 Culture] [in capital]",
+            "[+3 Culture, +2 Food] [in capital]",
             "[-25]% Culture cost of natural border growth [in all cities]"
         ],
         "policies": [
@@ -18,7 +18,7 @@
                 "name": "Aristocracy",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness, +1 Gold] per [10] population [in all cities]"
+                    "[+1 Production, +1 Gold] per [10] population [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -54,7 +54,7 @@
             {
                 "name": "Monarchy",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness] per [2] population [in capital]"
+                    "[+1 Production, +1 Happiness] per [2] population [in capital]"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -84,7 +84,8 @@
             {
                 "name": "Republic",
                 "uniques": [
-                    "[+1 Production] [in all cities]",
+                    "[+1 Happiness] [in all cities] <when not at war>",
+                    "[+1 Gold] [in all cities] <when at war>",
                     "[+5]% Production when constructing [Happiness] buildings [in all cities]"
                 ],
                 "row": 1,
@@ -95,7 +96,7 @@
                 "uniques": [
                     "[-15]% tile improvement construction time",
                     "Free [Worker] appears",
-                    "[+1 Happiness] [in all non-occupied cities]"
+                    "[+1 Happiness, -1 Food, -1 Gold, +1 Culture] [in all non-occupied cities]"
                 ],
                 "row": 1,
                 "column": 4
@@ -114,7 +115,8 @@
             {
                 "name": "Representation",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [50]% less than normal",
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "[+1] Unit Supply per city <when at war>"
                 ],
                 "requires": ["Citizenship"],
                 "row": 2,
