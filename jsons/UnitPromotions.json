@@ -2,7 +2,8 @@
 	{
 		"name": "Bound by Creed",
 		"uniques": [
-			"[+33]% Strength <when defending>"
+			"[+33]% Strength <when defending>",
+			"Only available <after adopting [Warrior Code]>"
     		],
 		"unitTypes": ["Sword"],
         	"column": 26,
