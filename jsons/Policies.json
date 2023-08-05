@@ -102,7 +102,6 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[+25]% Production when constructing [Settler] units [in capital]",
                     "[-15]% tile improvement construction time <when not at war>",
                     "Free [Settler] appears"
                 ],
@@ -201,10 +200,10 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
-                    "Earn [20]% of killed [Military] unit's [Strength] as [Culture]",
+                    "Earn [50]% of killed [Military] unit's [Cost] as [Gold]",
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
                     "[+10]% [Culture] [in annexed cities]",
-                    "[-5]% [Gold] [in annexed cities]",
+                    "[-5]% [Gold] [in annexed cities]"
                 ]
             }
         ]
