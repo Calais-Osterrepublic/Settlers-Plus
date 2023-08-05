@@ -6,7 +6,7 @@
 			"Only available <after adopting [Warrior Code]>"
     		],
 		"unitTypes": ["Sword"],
-        	"column": 26,
+        	"column": 27,
         	"row": 1
 	},
 	{
@@ -16,7 +16,7 @@
 			"[+33]% Strength <when defending> <when fighting units from a Civilization with more Cities than you>"
 		],
 		"unitTypes": ["Sword"],
-	        "column": 26,
+	        "column": 27,
 	        "row": 2
 	},
   	{
@@ -28,7 +28,7 @@
 		      	"Founds a new city <by consuming this unit>"
     		],
 		"unitTypes": ["Sword"],
-        	"column": 26,
+        	"column": 27,
         	"row": 3
 	},
 ]
