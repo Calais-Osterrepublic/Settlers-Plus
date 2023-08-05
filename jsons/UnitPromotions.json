@@ -1,33 +1,33 @@
 [
-  {
+	{
 		"name": "Bound by Creed",
 		"uniques": [
-      "[+33]% Strength <when defending>"
-    ],
+			"[+33]% Strength <when defending>"
+    		],
 		"unitTypes": ["Sword"],
-        "column": 26,
-        "row": 1
+        	"column": 26,
+        	"row": 1
 	},
-  {
+	{
 		"name": "Honorable Warrior",
-    "prerequisites": ["Bound by Creed"],
+    		"prerequisites": ["Bound by Creed"],
 		"uniques": [
-      "[+33]% Strength <when defending> <when fighting units from a Civilization with more Cities than you>"
-    ],
+			"[+33]% Strength <when defending> <when fighting units from a Civilization with more Cities than you>"
+		],
 		"unitTypes": ["Sword"],
-        "column": 26,
-        "row": 2
+	        "column": 26,
+	        "row": 2
 	},
-  {
+  	{
 		"name": "Legend",
-    "prerequisites": ["Honorable Warrior"],
+    		"prerequisites": ["Honorable Warrior"],
 		"uniques": [
-      "[+33]% Strength <when defending> <when fighting units from a Civilization with more Cities than you>",
-      "Free Great Person <by consuming this unit>",
-      "Founds a new city <by consuming this unit>"
-    ],
+			"[+33]% Strength <when defending> <when fighting units from a Civilization with more Cities than you>",
+		      	"Free Great Person <by consuming this unit>",
+		      	"Founds a new city <by consuming this unit>"
+    		],
 		"unitTypes": ["Sword"],
-        "column": 26,
-        "row": 2
+        	"column": 26,
+        	"row": 2
 	},
 ]
