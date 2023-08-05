@@ -7,9 +7,6 @@
 			"Founds a new city <by consuming this unit>", 
 			"Unbuildable",
 			"Requires at least [5] population",
-			"Can be purchased for [200] [Happiness] [in all cities] <after adopting [Collective Rule]>",
-			"Can be purchased for [200] [Faith] [in holy cities] <after adopting [Theocracy]>",
-			"Can be purchased for [200] [Culture] [in capital] <after adopting [Landed Elite]>"
 		],
 	}
 ]
